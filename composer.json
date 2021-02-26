@@ -1,0 +1,29 @@
+{
+    "name": "peaceman/shopware-customer-import",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "^7.2",
+        "vlucas/phpdotenv": "^5.3",
+        "league/csv": "^9.6",
+        "symfony/console": "^5.2",
+        "psr/log": "^1.1",
+        "symfony/yaml": "^5.2",
+        "illuminate/collections": "^8.29",
+        "monolog/monolog": "^2.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "peaceman",
+            "email": "nixalio@gmail.com"
+        }
+    ],
+    "bin": [
+        "bin/shopware-customer-import"
+    ],
+    "autoload": {
+        "psr-4": {
+            "n2305\\ShopwareCustomerImport\\": "src/"
+        }
+    }
+}
